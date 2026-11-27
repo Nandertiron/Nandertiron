@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="250" viewBox="0 0 1200 250" role="img" aria-labelledby="title desc">
+  <title id="title">Lluvia digital verde</title>
+  <desc id="desc">Banner original con lluvia de caracteres verdes sobre fondo negro.</desc>
+  <defs>
+    <linearGradient id="fade" x2="0" y2="1">
+      <stop stop-color="#00ff41" stop-opacity=".85"/>
+      <stop offset="1" stop-color="#00ff41" stop-opacity=".08"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="250" fill="#020704"/>
+  <g fill="url(#fade)" font-family="monospace" font-size="21" opacity=".8">
+    <text x="30" y="35">01 10 01 11 00 10 01 01</text>
+    <text x="30" y="70">1 0 1 1 0 0 1 0 1 1 0</text>
+    <text x="30" y="105">01101001 10100110 0101</text>
+    <text x="30" y="140">0 1 0 1 1 0 0 1 0 1 1</text>
+    <text x="30" y="175">11001010 01100101 1001</text>
+    <text x="30" y="210">1 0 0 1 0 1 1 0 1 0 0</text>
+    <text x="390" y="28">0 1 1 0 1 0 0 1 1 0</text>
+    <text x="390" y="63">10100110 01011001 0110</text>
+    <text x="390" y="98">1 0 1 0 0 1 1 0 1 1</text>
+    <text x="390" y="133">01101001 10010110 1010</text>
+    <text x="390" y="168">0 1 0 1 1 0 1 0 0 1</text>
+    <text x="390" y="203">10010110 01101001 0101</text>
+    <text x="830" y="35">1 0 0 1 1 0 1 0 0 1</text>
+    <text x="830" y="70">01101001 10100110 1100</text>
+    <text x="830" y="105">0 1 1 0 1 0 0 1 1 0</text>
+    <text x="830" y="140">10110010 01011001 0011</text>
+    <text x="830" y="175">1 0 1 0 1 1 0 0 1 0</text>
+    <text x="830" y="210">01010110 11001001 0110</text>
+  </g>
+  <path d="M0 224H1200" stroke="#00ff41" stroke-opacity=".3"/>
+  <text x="600" y="157" fill="#00ff41" filter="url(#glow)" font-family="monospace" font-size="42" font-weight="bold" text-anchor="middle">WELCOME TO THE MATRIX</text>
+</svg>

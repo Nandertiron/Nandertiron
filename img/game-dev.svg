@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="430" viewBox="0 0 900 430" role="img" aria-labelledby="title desc">
+  <title id="title">Creando videojuegos</title>
+  <desc id="desc">Ilustración original de un monitor con código y un pequeño mundo pixelado.</desc>
+  <defs>
+    <linearGradient id="screen" x2="1" y2="1">
+      <stop stop-color="#071b13"/>
+      <stop offset="1" stop-color="#102d20"/>
+    </linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="900" height="430" rx="26" fill="#07100b"/>
+  <rect x="34" y="32" width="832" height="366" rx="18" fill="#0b1710" stroke="#00ff41" stroke-opacity=".55" stroke-width="2"/>
+  <circle cx="65" cy="61" r="7" fill="#00ff41"/><circle cx="89" cy="61" r="7" fill="#8aff9f"/><circle cx="113" cy="61" r="7" fill="#315c3d"/>
+  <rect x="66" y="94" width="386" height="269" rx="12" fill="url(#screen)" stroke="#1b6331"/>
+  <g font-family="monospace" font-size="19">
+    <text x="91" y="133" fill="#73ff8d">function</text><text x="187" y="133" fill="#f3f7f3"> createWorld() {</text>
+    <text x="111" y="170" fill="#a4e8ac">const</text><text x="174" y="170" fill="#f3f7f3"> player = new Hero();</text>
+    <text x="111" y="207" fill="#a4e8ac">while</text><text x="166" y="207" fill="#f3f7f3"> (game.running) {</text>
+    <text x="131" y="244" fill="#73ff8d">explore</text><text x="210" y="244" fill="#f3f7f3">(player);</text>
+    <text x="131" y="281" fill="#73ff8d">build</text><text x="188" y="281" fill="#f3f7f3">(newAdventure);</text>
+    <text x="111" y="318" fill="#f3f7f3">}</text><text x="91" y="350" fill="#f3f7f3">}</text>
+  </g>
+  <rect x="480" y="94" width="348" height="269" rx="12" fill="#10251a" stroke="#1b6331"/>
+  <path d="M495 290h318v60H495z" fill="#18422a"/>
+  <path d="M500 260h30v30h-30zM545 230h30v60h-30zM590 260h30v30h-30zM635 200h30v90h-30zM680 230h30v60h-30zM725 245h30v45h-30z" fill="#286d37"/>
+  <path d="M495 350h318v8H495z" fill="#00ff41" opacity=".8"/>
+  <g filter="url(#glow)" fill="#b9ffc6">
+    <rect x="645" y="165" width="8" height="28"/><rect x="635" y="175" width="28" height="8"/>
+    <path d="M767 116h28v8h-28zM777 106h8v28h-8z"/>
+  </g>
+  <text x="653" y="386" text-anchor="middle" fill="#8effa2" font-family="monospace" font-size="16">IDEAS → CODE → ADVENTURE</text>
+</svg>

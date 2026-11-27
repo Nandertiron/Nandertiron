@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="430" viewBox="0 0 900 430" role="img" aria-labelledby="title desc">
+  <title id="title">Battlefield 6: ilustración fan-made</title>
+  <desc id="desc">Escena original y estilizada de una ciudad ficticia con edificios dañados y humo.</desc>
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#182731"/><stop offset="1" stop-color="#a36c45"/></linearGradient>
+    <linearGradient id="smoke" x2="0" y2="1"><stop stop-color="#717575" stop-opacity=".8"/><stop offset="1" stop-color="#343c3c" stop-opacity=".2"/></linearGradient>
+  </defs>
+  <rect width="900" height="430" rx="24" fill="#0a1114"/>
+  <rect x="18" y="18" width="864" height="394" rx="18" fill="url(#sky)"/>
+  <circle cx="715" cy="112" r="48" fill="#e0a36d" opacity=".8"/>
+  <path d="M0 275L100 240 175 270 250 210 325 258 414 195 500 263 586 216 681 267 760 220 900 270V430H0z" fill="#26353a"/>
+  <path d="M50 198h126v172H50zM62 175h100v23H62zM196 234h145v136H196zM214 206h112v28H214zM558 210h128v160H558zM580 182h85v28h-85zM706 245h132v125H706z" fill="#454b49"/>
+  <path d="M50 198l18 11 16-8 12 13 17-11 13 10 19-9 31 9v157H50zM196 234l22 10 18-12 17 10 24-12 16 12 18-7 30 10v125H196zM558 210l20 14 15-10 20 9 22-12 15 13 16-5 20 8v143H558zM706 245l20 8 20-11 23 14 17-9 16 12 18-6v117H706z" fill="#343a39"/>
+  <g fill="#e8b47e" opacity=".8">
+    <path d="M72 225h18v24H72zM112 225h18v24h-18zM72 266h18v24H72zM230 260h20v23h-20zM283 260h20v23h-20zM585 239h19v23h-19zM634 239h19v23h-19zM740 276h20v24h-20zM791 276h20v24h-20z"/>
+  </g>
+  <path d="M0 348q180-40 335 5t300-4 265 2v79H0z" fill="#171d1c"/>
+  <g fill="url(#smoke)">
+    <ellipse cx="432" cy="200" rx="82" ry="28"/><ellipse cx="466" cy="169" rx="66" ry="33"/><ellipse cx="425" cy="140" rx="54" ry="25"/>
+  </g>
+  <path d="M364 338h181l-20-35h-32l-16-26h-56l-19 26h-26z" fill="#202c2e" stroke="#a9a092" stroke-width="3"/>
+  <circle cx="402" cy="340" r="18" fill="#111718" stroke="#727975" stroke-width="5"/><circle cx="503" cy="340" r="18" fill="#111718" stroke="#727975" stroke-width="5"/>
+  <rect x="40" y="34" width="245" height="44" rx="8" fill="#101819" fill-opacity=".85"/>
+  <text x="57" y="64" fill="#f1eee8" font-family="monospace" font-size="25" font-weight="bold" letter-spacing="2">BATTLEFIELD 6</text>
+  <text x="40" y="395" fill="#d2c8b8" font-family="monospace" font-size="13">FAN-MADE CONCEPT ART · NOT OFFICIAL GAMEPLAY</text>
+</svg>
